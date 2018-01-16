@@ -1,0 +1,161 @@
+* {padding:0;margin:0;}
+		body {background-color:#525252;}
+		
+    A {
+	text-decoration: none;
+	font:bold 12px;
+	color:#555;
+	}
+
+		#mapMonitor {
+			width:1000px;
+			height:700px;
+			background-repeat:no-repeat;
+			background-position:top;
+			background-image:url(images/kz.png);
+			background-size:cover;
+			margin:0 auto;
+		}
+		#mapMonitor .city {
+			position:absolute;
+			text-align:center;
+			cursor:pointer;
+		}
+		#mapMonitor .city div {
+			
+		}
+
+		#mapMonitor .city .name {
+			font:bold 12px Roboto;
+			color:#555;
+		}
+
+		#mapMonitor .city .icoCity {
+			background-color:#47de0b;
+			width:16px;
+			height:16px;
+			border-radius:8px;
+			margin:0 auto;
+			margin-top:3px;
+		}
+
+		#mapMonitor .city .warning {
+			background-color:#ffca0b;
+			width:16px;
+			height:16px;
+			border-radius:8px;
+			margin:0 auto;
+			margin-top:3px;
+			box-shadow: 0 0 20px 0px #ffca0b;
+		}
+
+		#mapMonitor .city .critical {
+			background-color:#de0b0b;
+			width:16px;
+			height:16px;
+			border-radius:8px;
+			margin:0 auto;
+			margin-top:3px;
+			box-shadow: 0 0 20px 0px #de0b0b;
+		}
+
+
+
+
+.closePelena {
+	width:3000px;
+	height:3000px;
+	background-repeat:no-repeat;
+	background-position:top;
+	background-image:url(images/icoClose.png);
+	background-size:30px;
+	position:fixed;
+//	right:0;
+	left: 900px;
+	margin-top:10px;
+	margin-right:40px;
+	cursor:pointer;
+}
+
+#pelena {
+	position:fixed;
+	top:0;
+	overflow-y:auto;
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+#brasDivMain {
+	width:900px;
+	min-height:100%;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	box-shadow: 5px 0 10px rgba(0,0,0,0.5);
+	background-color:#525252;
+	opacity:0.9;
+	margin-left:-910px;
+	font: 16px Roboto;
+	color:#ffffff;
+
+}
+
+
+#ver {
+    position: absolute;
+//    width: 50%;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    background-color: #626262;
+    font-size: 10pt;
+    color:#dadada;
+
+}
+
+
+#status {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    bottom: 0;
+    margin-left: 10px;
+    background-color: #626262;
+    font-size: 10pt;
+    color:#dadada;
+
+}
+
+
+#right-col {
+    position: absolute;
+//    width: 300px;
+//    height: 70%;
+    z-index:10;
+    right: 0;
+    top: 10px;
+    margin-right: 10px;
+    background-color: #424242;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    opacity: 0.8;
+    font-size: 12pt;
+    color:#afafaf;
+//    display: none;
+
+}
+
+
+tr:nth-child(even) {
+    background-color: #515151;
+    color: #cdcdfd;
+}
+
+
+tr:nth-child(odd) {
+    background-color: #474747;
+    color: #bbbbfb;
+}
+
